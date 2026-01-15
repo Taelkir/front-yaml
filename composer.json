@@ -1,5 +1,6 @@
 {
     "name": "mnapoli/front-yaml",
+    "version": "2.1",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -12,7 +13,7 @@
         }
     },
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^8.4",
         "symfony/yaml": "^4.0|^5.0|^6.0|^7.0|^8.0",
         "league/commonmark": "^2.0"
     },

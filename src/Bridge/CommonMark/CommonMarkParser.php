@@ -13,7 +13,7 @@ class CommonMarkParser implements MarkdownParser
 {
     private MarkdownConverterInterface $parser;
 
-    public function __construct(MarkdownConverterInterface $commonMarkConverter = null)
+    public function __construct(MarkdownConverterInterface $commonMarkConverter)
     {
         $this->parser = $commonMarkConverter ?: new CommonMarkConverter;
     }

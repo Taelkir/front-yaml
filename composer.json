@@ -1,6 +1,6 @@
 {
     "name": "mnapoli/front-yaml",
-    "version": "2.1",
+    "version": "3.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {

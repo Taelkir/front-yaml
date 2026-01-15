@@ -12,11 +12,11 @@ use Mni\FrontYAML\Markdown\MarkdownParser;
 class CommonMarkParser implements MarkdownParser
 {
     private MarkdownConverterInterface $parser;
-
-    public function __construct(MarkdownConverterInterface $commonMarkConverter)
-    {
-        $this->parser = $commonMarkConverter ?: new CommonMarkConverter;
-    }
+	
+    public function __construct(MarkdownConverterInterface|string $commonMarkConverter = 'none')
+	{
+		$this->parser = $commonMarkConverter === 'none' ? new CommonMarkConverter : $commonMarkConverter;
+	}
 
     public function parse(string $markdown): string
     {

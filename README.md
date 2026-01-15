@@ -1,3 +1,5 @@
+Forked from https://github.com/mnapoli/FrontYAML to implement a quick and dirty php 8.4 upgrade. This repo should be discarded when the original supports php 8.4
+
 # FrontYAML
 
 An implementation of YAML Front matter for PHP. It can parse both YAML **and** Markdown.

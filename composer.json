@@ -1,6 +1,6 @@
 {
     "name": "taelkir/front-yaml",
-    "version": "3.0",
+    "version": "3.0.2",
     "license": "MIT",
     "autoload": {
         "psr-4": {
